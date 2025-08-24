@@ -1,9 +1,10 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.app",
-    "sha256_cert_fingerprints":
-    ["YOUR_CERT_FINGERPRINT"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.fakeSaml",
+      "sha256_cert_fingerprints": ["8A:27:8B:3B:C4:27:C4:D9:34:76:A3:96:94:FE:0F:4C:21:24:69:0A:CF:EA:84:CA:AA:1D:F3:43:C2:7A:87:A2"]
+    }
   }
-}]
+]
