@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy Callback</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>Dummy SAML Callback</h1>
+  <p>Authentication successful.</p>
+  <p>Your dummy SAML Response is: <code id="samlResponse"></code></p>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const samlResponse = urlParams.get('SAMLResponse');
+    document.getElementById('samlResponse').textContent = samlResponse || 'No SAMLResponse found.';
+  </script>
+</body>
+</html>
