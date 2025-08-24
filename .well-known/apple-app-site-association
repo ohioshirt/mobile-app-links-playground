@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "C8U44N9NN2.com.example.fakeSaml",
+        "appID": "C8U44N9NN2.com.example.webSamlDemo",
         "paths": [ "/mobile-app-links-playground/callback" ]
       }
     ]
