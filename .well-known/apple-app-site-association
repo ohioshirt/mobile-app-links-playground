@@ -3,10 +3,10 @@
     "apps": [],
     "details": [
       {
-        "appIDs": [ "C8U44N9NN2.com.example.webSamlDemo" ],
+        "appIDs": ["C8U44N9NN2.com.example.webSamlDemo"],
         "components": [
           {
-            "/": "/callback",
+            "/": "//callback",
             "comment": "Matches the exact path /callback"
           }
         ]
