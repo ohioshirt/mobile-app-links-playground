@@ -1,4 +1,7 @@
 {
+  "webcredentials": {
+    "apps": ["C8U44N9NN2.com.example.webSamlDemo"]
+  },
   "applinks": {
     "apps": [],
     "details": [
